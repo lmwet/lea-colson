@@ -2,7 +2,7 @@
   "name": "lea-colson",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lea-colson.github.io/",
+  "homepage": "https://lmwet.github.io/lea-colson.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
