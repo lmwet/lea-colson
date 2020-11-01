@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import { ParallaxProvider } from "react-scroll-parallax";
 import App from "./App";
-import Me from ".//components/me";
+import Me from "./components/me";
 import Lmwet from "./components/lmwet";
 import Contact from "./components/contact";
 import Navtop from "./components/nav";
