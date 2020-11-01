@@ -169,12 +169,12 @@ ul.languages > li {
   overflow-x: hidden;
 }
 
-#projects {
+/* #projects {
   background-color: #fff;
   background-image: url(../images/schmutz.png);
   background-repeat: repeat;
   background-size: 100vw;
-}
+} */
 
 .knopf {
   background-color: black;
