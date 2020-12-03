@@ -4,9 +4,10 @@
 }
 * {
   font-family: "Audrey";
-  font-size: 19px;
+  font-size: 21px;
   margin: 0;
   box-sizing: border-box;
+  line-height: 2em;
 }
 
 body {
@@ -60,7 +61,11 @@ li {
 
 .navbar-inverse .navbar-brand {
   color: rgba(160, 225, 255, 0.651);
-  /* display: block;  */
+}
+
+#me {
+  background-image: url(../images/schmutz.png);
+  background-repeat: repeat;
 }
 
 .portfolio-item {
@@ -118,6 +123,9 @@ li {
   background-color: rgba(239, 242, 250, 0.651);
   border-radius: 20%;
   margin: 2%;
+  -webkit-box-shadow: 4px 4px 8px 2px #404040;
+  -moz-box-shadow: 4px 4px 8px 2px #404040;
+  box-shadow: 4px 4px 8px 2px #404040;
 }
 
 .word2 {
@@ -127,6 +135,9 @@ li {
   border: black dashed 4px;
   border-radius: 20%;
   margin: 2%;
+  -webkit-box-shadow: 4px 4px 8px 2px #404040;
+  -moz-box-shadow: 4px 4px 8px 2px #404040;
+  box-shadow: 4px 4px 8px 2px #404040;
 }
 
 .languages {
@@ -141,18 +152,34 @@ li {
   padding: 4em;
   border: black dashed 4px;
   border-radius: 10%;
+  -webkit-box-shadow: 4px 4px 8px 2px #404040;
+  -moz-box-shadow: 4px 4px 8px 2px #404040;
+  box-shadow: 4px 4px 8px 2px #404040;
+  max-width: 45vw;
+  flex-wrap: wrap;
 }
 
-ul.experience > li {
-  padding: 1%;
-  font-size: 1.1em;
-  list-style: circle;
+.experience-date {
+  margin-top: 2em;
+  background-color: rgba(255, 255, 255, 0.767);
+  padding: 4em;
+  border: black dashed 4px;
+  border-radius: 10%;
+  -webkit-box-shadow: 4px 4px 8px 2px #404040;
+  -moz-box-shadow: 4px 4px 8px 2px #404040;
+  box-shadow: 4px 4px 8px 2px #404040;
+  max-width: 5vw;
+  flex-wrap: wrap;
+}
+
+ul.experience {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 ul.languages > li {
-  padding: 1%;
   font-size: 1.1em;
-  list-style: circle;
 }
 
 .footer-blurb {
@@ -169,12 +196,16 @@ ul.languages > li {
   overflow-x: hidden;
 }
 
-/* #projects {
+#projects {
+  background-image: url(../images/schmutz.png);
+  background-repeat: repeat;
+}
+.print {
   background-color: #fff;
   background-image: url(../images/schmutz.png);
   background-repeat: repeat;
   background-size: 100vw;
-} */
+}
 
 .knopf {
   background-color: black;
@@ -191,6 +222,10 @@ ul.languages > li {
 
 .friend-text {
   padding: 4%;
+}
+
+#contactme {
+  min-height: 100vh;
 }
 
 .copyright {
