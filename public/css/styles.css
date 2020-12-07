@@ -228,6 +228,33 @@ ul.languages > li {
   min-height: 100vh;
 }
 
+#black-blob {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 23vh;
+  background-image: url(../images/blobNoir.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 5vh;
+}
+
+#download {
+  padding-left: 1.2em;
+}
+
+#white-blob {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/whiteBlob.png);
+  background-repeat: no-repeat;
+  height: 40vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: opacity(0.8);
+}
 .copyright {
   background-color: #fff;
   text-align: center;
