@@ -282,4 +282,23 @@ ul.languages > li {
     border: black dashed 4px;
     border-radius: 10%;
   }
+  #contactme {
+    display: flex;
+    flex-grow: 1;
+    flex-flow: column wrap;
+    align-items: left;
+    justify-content: flex-start;
+  }
+  #contactme > a {
+    font-size: 0.3em;
+  }
+  #lmwet {
+    height: 8vh;
+  }
+  #black-blob {
+    align-self: left;
+  }
+  #white-blob {
+    align-self: center;
+  }
 }
